@@ -202,6 +202,7 @@ function App() {
           </button>
 
         </div>
+        <p>ⓒ Mikeias Andr</p>
       </header>
     </div>
   );

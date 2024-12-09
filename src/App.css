@@ -1,28 +1,20 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header { 
   background: linear-gradient(45deg,#0f2027, #203a43, #2c5364, #4a6572);
   background-size: 800% 800%; /* Torna o movimento mais dinâmico */
   animation: gradientAnimation 35s ease infinite;  min-height: 100vh;
+}
+
+
+.App-header { 
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  transform: translateY(95px);
 }
 
 @keyframes gradientAnimation {
@@ -37,15 +29,4 @@
   }
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
