@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
+
 function App() {
 
   const frases = [
@@ -9,8 +10,8 @@ function App() {
     'Escolha 3 pessoas para beber um shot.',
     'Beber 2 shots ou dar um tapinha dna bunda da pessoa à sua esquerda',
     'Mande direct para o(a) atual do seu ex' + '\n' + '\n'+ 'Ou beba 4 shots',
-    'Ligar para o(a) ex e dizer: "oi sumido' + '\n' + '\n'+ 'Ou beba 7 shots"',
-    'Poste no instagram que está namorando com a pessoa da sua direita' + '\n' + '\n'+ 'Ou beba 7 shots',
+    'Ligar para o(a) ex e dizer: "oi sumido' + '\n' + '\n'+ 'Ou beba 3 shots"',
+    'Poste no instagram que está namorando com a pessoa da sua direita' + '\n' + '\n'+ 'Ou beba 3 shots',
     'Deixe a pessoa da sua esquerda escolher onde te dar um beijo' + '\n' + '\n'+ 'Ou beba 4 shots',
     'eu nunca... Liguei para o ex pedindo para voltar',
     'Fique 3 minutos com a pessoa da sua frente em um lugar sozinhos' + '\n' + '\n'+ 'Ou beba 6 shots os dois',
@@ -37,14 +38,14 @@ function App() {
     'Entre a pessoa da sua esquerda ou direita você faria um sextape?' + '\n' + '\n'+ 'ou beba 2 shots.',
     'quem da roda você convidaria para um menage',
     'Falar o nome de alguém que você já ficou e ninguém sabe' + '\n' + '\n'+ 'Ou beba 5 shots',
-    'Dê um selinho na pessoa da sua direita' + '\n' + '\n'+ 'Ou beba 7 shots',
+    'Dê um selinho na pessoa da sua direita' + '\n' + '\n'+ 'Ou beba 3 shots',
     'Dance sensualmente uma música escolhida pelo grupo por 30 segundos' + '\n' + '\n'+ 'ou beba 5 shots.',
     'Troque de roupa (qualquer peça) com a pessoa da sua frente' + '\n' + '\n'+ 'ou beba 3 shots.',
     'Escolha alguém da roda para te dar um apelido e explique por que ele combina com você' + '\n' + '\n'+ 'ou beba 4 shots.',
     'Envie um "Oi, sumido(a)" para alguém que o grupo escolher no seu WhatsApp' + '\n' + '\n'+ 'ou beba 6 shots.',
     'Imite a última pessoa que falou por 1 minuto' + '\n' + '\n'+ 'ou beba 3 shots.',
     'Escolha duas pessoas para simularem uma cena de novela mexicana' + '\n' + '\n'+ 'ou todos bebem 2 shots.',
-    'Poste nos seus stories: "Alguém aí quer saber algo que nunca contei?"' + '\n' + '\n'+ 'ou beba 7 shots.',
+    'Poste nos seus stories: "Alguém aí quer saber algo que nunca contei?"' + '\n' + '\n'+ 'ou beba 3 shots.',
     'Conte qual foi o maior fora que você já levou' + '\n' + '\n'+ 'ou beba 4 shots.',
     'Faça uma massagem nos pés da pessoa à sua esquerda por 1 rodada' + '\n' + '\n'+ 'ou beba 6 shots.',
     'Leia em voz alta uma mensagem do seu WhatsApp enviada para um contatinho' + '\n' + '\n'+ 'ou beba 3 shots.',
@@ -70,6 +71,10 @@ function App() {
   ];*/
   // Array de cores para o gradiente
   const cores = [
+    ['#add8e6', '#4682b4'],
+
+    /*
+    ['#008080', '#20b2aa'],
     ['#31a2f2', '#004e4e'],
     ['#FF5733', '#FFC300'],
     ['#6a5acd', '#8a2be2'],
@@ -78,7 +83,6 @@ function App() {
     ['#ff6347', '#ff4500'],
     ['#90ee90', '#32cd32'],
     ['#ff1493', '#ff69b4'],
-    ['#add8e6', '#4682b4'],
     ['#ffcc99', '#ff9966'],
     ['#ff9966', '#ff6600'],
     ['#ffb6c1', '#d3d3d3'],
@@ -103,7 +107,7 @@ function App() {
     ['#3d3d3d', '#282828'],
     ['#2f4f4f', '#003d3d'],
     ['#4e4e4e', '#3a3a3a'],
-    ['#800080', '#9b30ff'],
+    
     ['#4b0082', '#663399'],
     ['#333333', '#4c4c4c'],
     ['#8b0000', '#5c4033'],
@@ -123,8 +127,7 @@ function App() {
     ['#45322e', '#5a4b47'],
     ['#6b8e23', '#808000'],
     ['#3d3d3d', '#222222'],
-    ['#008080', '#20b2aa'],
-    ['#556b2f', '#6b8e23'],
+    ['#556b2f', '#6b8e23'],*/
   ];
 
   /*const corblusa = [
@@ -178,7 +181,7 @@ function App() {
         <div id="addcard" className="card"
           style={{
             background: `linear-gradient(45deg, ${corAtual[0]}, ${corAtual[1]})`,
-            boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)',
+            boxShadow: '10px 10px 25px 0 rgba(0, 0, 0, 0.5)',
             transition: '0.3s',
             width: '220pt',
             height: '300pt',
