@@ -5,7 +5,32 @@ import './App.css';
 function App() {
 
   const frases = [
-    'Conte para a roda: você já talaricou algum participante do jogo?',
+    'Conte para a roda: você já teve uma amizade inesperada?' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Deixe a pessoa à sua direita mexer no seu celular por 10 segundos.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Escolha 3 pessoas para contar algo engraçado que aconteceu com elas.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Conte um segredo ou deixe alguém fazer um desenho na sua mão com caneta lavável.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Envie uma mensagem fofa para alguém da sua família ou beba um copo de água.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Faça uma ligação rápida para alguém e diga algo positivo.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Poste nos seus stories: "Amo minha família!" ou tire uma selfie engraçada com todos.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Deixe a pessoa à sua esquerda escolher um lugar para dar um abraço em você.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Eu nunca... fiquei acordado até tarde para assistir algo com a família.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Fique 1 minuto com a pessoa à sua frente fazendo caretas ou pague uma prenda.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Vote: quem faz o melhor prato da família?' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Se alguém estiver usando azul, todos devem elogiar uma qualidade dessa pessoa.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Escolha uma pessoa para dizer o que mais admira nela.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Mostre sua foto favorita no celular para os outros jogadores.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Dê um abraço apertado em alguém à sua escolha.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Conte para a roda: qual foi o momento mais engraçado em uma reunião de família?' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Imite o animal favorito de alguém por 15 segundos.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Deixe a pessoa à sua frente escolher uma música para você cantar ou dançar um trecho.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Faça uma pose engraçada para uma foto em grupo.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Escolha alguém para contar uma história de infância sobre você.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Descreva um sonho ou meta que você tem para o próximo ano.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Quem é o mais provável de ganhar em um jogo de tabuleiro? Vote e explique por quê.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Faça uma careta para alguém e peça que ela imite.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'Escolha uma pessoa para compartilhar uma memória especial que vocês têm juntos.' + '\n' + '\n'+ 'Ou beba 1 shot',
+    'O grupo escolhe um apelido divertido para você usar pelo resto do jogo.' + '\n' + '\n'+ 'Ou beba 1 shot'
+    /*'Conte para a roda: você já talaricou algum participante do jogo?',
     'Deixe a pessoa da sua direita mexer no seu WhatsApp por 30 segundos' + '\n' + '\n'+ 'ou beba 4 shots.',
     'Escolha 3 pessoas para beber um shot.',
     'Beber 2 shots ou dar um tapinha dna bunda da pessoa à sua esquerda',
@@ -62,7 +87,7 @@ function App() {
     'Beba e jogue mais uma rodada.',
     'Escolha um jogador para beber dois shots',
     'Conte uma verdade e uma mentira e deixe os jogadores curiosos.',
-    'Faça uma pergunta embaraçosa para alguém.' + '\n' + '\n'+ 'Se a pessoa não quiser responder terá que beber2 shots.'
+    'Faça uma pergunta embaraçosa para alguém.' + '\n' + '\n'+ 'Se a pessoa não quiser responder terá que beber2 shots.'*/
   ];
   /*const acao = [
     'Desafio.',
@@ -175,7 +200,8 @@ function App() {
       <header className="App-header">
         <p>
           <h1>Se beber não jogue</h1>
-          <h5>Você vai aguentar?</h5>
+          <h5>Verção lite</h5>
+          {/*<h5>Você vai aguentar?</h5>*/}
         </p>
         {/* Div com gradiente de cor dinâmico */}
         <div id="addcard" className="card"
